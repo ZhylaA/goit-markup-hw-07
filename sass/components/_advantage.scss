@@ -1,25 +1,25 @@
 .advantage {
   padding: 94px;
 }
-.advantage-list {
+.advantage__list {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
 }
 
-.advantage-item {
+.advantage__item {
   &:not(:last-child) {
     margin-right: 30px;
     justify-content: center;
   }
 }
 
-.advantage-icon {
+.advantage__icon {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.advantage-list {
+.advantage__list {
   text-decoration: none;
   list-style: none;
 }
@@ -33,7 +33,7 @@
   height: 120px;
   margin-bottom: 30px;
 }
-.advantage-title {
+.advantage__title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -41,7 +41,7 @@
   margin-bottom: 10px;
 }
 
-.advantage-description {
+.advantage__description {
   font-size: 14px;
   line-height: 1.71;
   color: $secondaryColor;

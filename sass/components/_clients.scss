@@ -1,7 +1,7 @@
 .clients {
   padding: 94px 0;
 }
-.clients-title {
+.clients__title {
   justify-content: center;
   margin-bottom: 50px;
   font-weight: bold;
@@ -11,11 +11,11 @@
   letter-spacing: 0.03em;
   color: $basicColor;
 }
-.clients-list {
+.clients__list {
   display: flex;
   flex-wrap: wrap;
 }
-.clients-item {
+.clients__item {
   width: 170px;
   height: 92px;
   border: 1px solid $colorSoc;
@@ -30,7 +30,7 @@
   }
 }
 
-.clients-icon {
+.clients__icon {
   width: 106px;
   height: 60px;
   display: flex;
@@ -38,7 +38,7 @@
   transition: fill $timeDuration $cubicBezier,
     border-color $timeDuration $cubicBezier;
 }
-.clients-link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,8 +53,8 @@
     cursor: pointer;
     border-color: $blueColor;
   }
-  &:hover .clients-icon,
-  &:focus .clients-icon {
+  &:hover .clients__icon,
+  &:focus .clients__icon {
     fill: $blueColor;
   }
 }

@@ -1,7 +1,7 @@
 .form {
   margin-left: 93px;
 }
-.form-title {
+.form__title {
   font-weight: bold;
   color: $whiteColor;
   font-size: 14px;
@@ -10,7 +10,7 @@
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.form-input {
+.form__input {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -25,11 +25,11 @@
     color: rgba(255, 255, 255, 0.6);
   }
 }
-.footer-ok {
+.footer__ok {
   margin-left: 10px;
 }
 
-.check-deal {
+.check__deal {
   font-size: 14px;
   line-height: calc(24 / 14);
   color: $secondaryColor;
@@ -39,27 +39,21 @@
   cursor: pointer;
   align-items: center;
   justify-content: center;
-}
-
-.modal-check {
-  margin-right: 7px;
-}
-.deal {
-  color: $blueColor;
-}
-
-.check-deal {
   span {
     width: 16px;
     height: 16px;
     border: 2px solid $blueColor;
     border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     .checkbox:checked + & {
       background-color: $blueColor;
       border: none;
     }
   }
+}
+
+.check__modal {
+  margin-right: 7px;
+}
+.deal {
+  color: $blueColor;
 }

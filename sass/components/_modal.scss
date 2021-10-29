@@ -6,7 +6,7 @@
   background-color: $whiteColor;
   padding: 40px;
 }
-.modal-title {
+.modal__title {
   font-weight: bold;
   font-size: 20px;
   line-height: calc(23 / 20);
@@ -15,7 +15,7 @@
   color: $basicColor;
   margin-bottom: 12px;
 }
-.modal-label {
+.modal__label {
   display: block;
   margin-bottom: 10px;
   margin-top: 4px;
@@ -23,7 +23,7 @@
   line-height: calc(14 / 12);
   color: $secondaryColor;
 }
-.modal-textarea {
+.modal__textarea {
   padding: 12px 16px;
   height: 120px;
   resize: none;
@@ -37,7 +37,7 @@
   }
 }
 
-.modal-input {
+.modal__input {
   padding-left: 42px;
   padding-right: 15px;
   height: 40px;
@@ -51,16 +51,16 @@
   &:focus {
     border-color: $blueColor;
   }
-  &:focus + .modal-svg {
+  &:focus + .modal__svg {
     fill: $blueColor;
   }
 }
 
-.modal-deal {
+.modal__deal {
   font-size: 14px;
   line-height: 1.71;
 }
-.modal-btn {
+.modal__btn {
   display: block;
   margin: 0 auto;
 }
@@ -69,13 +69,13 @@
   position: relative;
   margin-top: 4px;
 }
-.modal-svg {
+.modal__svg {
   position: absolute;
   left: 15px;
   top: 50%;
   transform: translateY(-50%);
 }
-.icon-close {
+.icon__close {
   position: absolute;
   right: 10px;
   top: 10px;
