@@ -17,7 +17,7 @@
   text-decoration: none;
   list-style: none;
 }
-.team__item {
+.team-item {
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -27,11 +27,11 @@
   }
 }
 
-.team-name-post {
+.team-item__post {
   padding-top: 30px;
 }
 
-.team__name {
+.team-item__name {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -39,13 +39,13 @@
   text-align: center;
 }
 
-.team__post {
+.team-item__topic {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   color: $secondaryColor;
 }
-.social__list {
+.social {
   display: flex;
   justify-content: center;
   margin-top: 16px;
@@ -72,7 +72,9 @@
   display: block;
   border-radius: 50%;
   background-color: $whiteColor;
-  @extend .align;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: $colorSoc;
   transition: color $timeDuration $cubicBezier, fill $timeDuration $cubicBezier,
     background-color $timeDuration $cubicBezier;

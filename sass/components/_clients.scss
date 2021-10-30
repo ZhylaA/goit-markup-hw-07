@@ -21,7 +21,7 @@
   border: 1px solid $colorSoc;
   box-sizing: border-box;
   border-radius: 4px;
-  @extend .align;
+  @extend %align;
   fill: $colorSoc;
   & + & {
     margin-left: 30px;
@@ -37,7 +37,7 @@
     border-color $timeDuration $cubicBezier;
 }
 .clients__link {
-  @extend .align;
+  @extend %align;
   width: 170px;
   height: 92px;
   border: 1px solid $secondaryColor;

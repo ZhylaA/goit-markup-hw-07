@@ -6,7 +6,7 @@
   width: 100vw;
   height: 100vh;
   top: 0px;
-  @extend .align;
+  @extend %align;
   transition: opacity $timeDuration $cubicBezier,
     visibility $timeDuration $cubicBezier;
   &.is-hidden {

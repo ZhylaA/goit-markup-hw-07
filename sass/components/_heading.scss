@@ -1,5 +1,7 @@
 .heading {
-  @extend .align;
+  display: flex;
+  justify-content: center;
+  text-align: center;
   padding: 200px 0;
   background-color: $secondaryColor;
   background-image: linear-gradient(
@@ -12,7 +14,7 @@
   background-position: center;
   background-size: cover;
 }
-.title__heading {
+.heading__title {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
