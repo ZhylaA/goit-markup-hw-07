@@ -2,14 +2,14 @@
   padding: 94px 0;
 }
 
-.portfolio__list {
+.portfolio-list {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.portfolio__item {
+.portfolio-list__item {
   &:not(:last-child) {
     margin-right: 8px;
   }
@@ -20,12 +20,12 @@
     border-radius: 4px;
   }
 }
-.portfolio__link {
+.portfolio-list__link {
   text-decoration: none;
   list-style: none;
 }
 
-.portfolio-link-btn {
+.portfolio__btn {
   padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
