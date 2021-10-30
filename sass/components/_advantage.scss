@@ -15,18 +15,18 @@
 }
 
 .advantage__icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend .align;
 }
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
 .advantage__list {
   text-decoration: none;
   list-style: none;
 }
 .thumb {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend .align;
   background: #f5f4fa;
   border-radius: 4px;
   width: 270px;

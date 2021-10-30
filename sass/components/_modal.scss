@@ -64,7 +64,7 @@
   display: block;
   margin: 0 auto;
 }
-.modal-wrapper {
+.modal__wrapper {
   display: block;
   position: relative;
   margin-top: 4px;
@@ -85,9 +85,7 @@
   border-radius: 50%;
   width: 30px;
   height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend .align;
   cursor: pointer;
   &:hover,
   &:focus {

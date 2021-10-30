@@ -1,8 +1,6 @@
 .heading {
-  display: flex;
-  justify-content: center;
+  @extend .align;
   padding: 200px 0;
-  text-align: center;
   background-color: $secondaryColor;
   background-image: linear-gradient(
       to right,
